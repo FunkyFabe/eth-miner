@@ -4,7 +4,7 @@ util2=$(nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits | a
 if [ $util1 -lt 80 ] || [ $util2 -lt 80 ]; then
   echo "restarting container"
   cd /home/fabian/eth-miner
-  docker-compose restart
+  /usr/local/bin/docker-compose restart
 else
   echo "continuing"
 fi
