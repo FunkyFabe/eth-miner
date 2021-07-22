@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  mining:
+    image: fabian/ethminer
+    build: .
+    restart: on-failure
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "1"
+    environment:
+      - ADDRESS=PLACEHOLDER
+      - WORKER=PLACEHOLDER

@@ -1,0 +1,1 @@
+* * * * * /eth-miner/cron/cron.sh >> /eth-miner/cron/script.log 2>&1
