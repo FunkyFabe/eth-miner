@@ -1,1 +1,1 @@
-* * * * * /eth-miner/cron/cron.sh >> /eth-miner/cron/script.log 2>&1
+* * * * * /home/fabian/eth-miner/cron/cron.sh >> /home/fabian/eth-miner/cron/script.log 2>&1
