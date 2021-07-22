@@ -1,5 +1,10 @@
 # Project Havana
 
+## Prerequisites 
+
+1. Install GPU Driver
+3. [Enabling GPU access with Compose]
+
 ## Installation
 
 1. Ensure the base image for your Dockerfile matches the CUDA version on the host.
