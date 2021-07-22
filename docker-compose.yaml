@@ -13,3 +13,8 @@ services:
     environment:
       - ADDRESS=PLACEHOLDER
       - WORKER=PLACEHOLDER
+    devices:
+      - /dev/nvidia-uvm:/dev/nvidia-uvm
+      - /dev/nvidia0:/dev/nvidia0
+      - /dev/nvidia1:/dev/nvidia1
+      - /dev/nvidiactl:/dev/nvidiact
